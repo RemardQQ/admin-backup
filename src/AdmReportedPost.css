@@ -1,0 +1,87 @@
+.reported-posts-container {
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .MuiTableCell-root,
+  .MuiTableHead-root .MuiTableCell-root,
+  .MuiTableContainer-root,
+  .MuiTable-root,
+  .reported-posts-container {
+    font-family: 'Poppins', sans-serif !important;
+  }
+  
+  .MuiTableContainer-root {
+    width: 100%;
+    overflow: visible !important;
+  }
+  
+  .MuiTable-root {
+    width: 100%;
+    table-layout: auto;
+  }
+  
+  .MuiTableCell-root {
+    padding: 4px 8px !important;
+    font-size: 0.75rem !important;
+  }
+  
+  .MuiTableHead-root .MuiTableCell-root {
+    font-weight: bold !important;
+    font-size: 0.8rem !important;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .archive-post-btn {
+    padding: 2px 6px;
+    border: 1px solid #ffae00;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    background-color: transparent;
+    color: #ffae00;
+  }
+  
+  .archive-post-btn:hover {
+    background-color: #FF9900;
+    color: white;
+  }
+  
+  .plagiarism-dropdown-btn {
+    margin-left: 2px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: #ff0000;
+  }
+  
+  .dropdown-content {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 300px; /* Expanded width for the dropdown content */
+  }
+  
+  .dropdown-content p {
+    margin: 5px 0;
+  }
+  
+  .dropdown-content a {
+    color: #0000FF;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,81 @@
+.user-management-container {
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px; /* Added padding-left */
+  padding-right: 40px; /* Added padding-right */
+}
+
+.MuiTableCell-root,
+.MuiTableHead-root .MuiTableCell-root,
+.MuiTableContainer-root,
+.MuiTable-root,
+.user-management-container {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.MuiTableContainer-root {
+  width: 100%;
+  max-height: calc(100vh - 200px);
+  overflow: visible !important;
+  background: linear-gradient(180deg, #EAF8FF 0%, #8D9599 100%);
+}
+
+.MuiTable-root {
+  width: 100%;
+  table-layout: auto;
+  background: linear-gradient(180deg, #EAF8FF 0%, #8D9599 100%);
+}
+
+.MuiTableCell-root {
+  padding: 4px 8px !important;
+  font-size: 0.7rem !important; /* Set value font size to 0.7rem */
+  background: transparent !important;
+  color: #000 !important;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  color: #000 !important;
+  font-weight: bold !important;
+  font-size: 0.8rem !important; /* Set label font size to 0.8rem */
+}
+
+.action-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.archive-button {
+  padding: 2px 6px;
+  border: 1px solid #ffae00;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  background-color: transparent;
+  color: #ffae00;
+}
+
+.archive-button:hover {
+  background-color: #FF9900;
+  color: white;
+}
+
+.status-indicator {
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+}
+
+.status-active {
+  color: #28a745;
+}
+
+.status-inactive {
+  color: #dc3545;
+}

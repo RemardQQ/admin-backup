@@ -1,0 +1,129 @@
+.layout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #010102d7;
+}
+
+
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+  width: calc(100% + 38px);
+  margin-top: 4px; 
+  padding-top: 0; 
+}
+
+.sidebar-logo img {
+  width: 60px; 
+  margin-left: 14px; 
+}
+
+.sidebar-logo-text {
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: 'Poppins';
+  background: linear-gradient(80deg, #ff9900, #fff); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.admin-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.sidebar {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0A1121;
+  width: 240px;
+  padding: 0 20px; 
+  margin:25px 0px 25px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.profile {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  background-color: #cccccc;
+  border-radius: 50%;
+  border: 2px solid #FF9900;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.profile-name {
+  font-size: 12px;
+  margin: 0;
+}
+
+.profile-role {
+  font-size: 10px;
+  color: #ffc107;
+}
+
+.nav-menu {
+  width: 100%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 16px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 8px 0 0 8px; 
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+  width: 100%; 
+}
+
+.nav-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  background-color: #FF9900;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px 0 0 8px; 
+  width: calc(100% + 20px);
+}
+
+.feed {
+  flex-grow: 1;
+  margin:25px 15px 25px 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #0A1121;
+  overflow-y: auto;
+}
